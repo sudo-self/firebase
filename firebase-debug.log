@@ -1,0 +1,77 @@
+[debug] [2024-03-10T02:25:49.560Z] ----------------------------------------------------------------------
+[debug] [2024-03-10T02:25:49.562Z] Command:       /opt/homebrew/Cellar/node/21.6.2_1/bin/node /opt/homebrew/bin/firebase init
+[debug] [2024-03-10T02:25:49.562Z] CLI Version:   13.4.1
+[debug] [2024-03-10T02:25:49.562Z] Platform:      darwin
+[debug] [2024-03-10T02:25:49.562Z] Node Version:  v21.6.2
+[debug] [2024-03-10T02:25:49.562Z] Time:          Sat Mar 09 2024 19:25:49 GMT-0700 (Mountain Standard Time)
+[debug] [2024-03-10T02:25:49.562Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-10T02:25:49.596Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-10T02:25:49.596Z] > authorizing via signed-in user (mrjesseroper@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/sudo-self/Desktop/untitled folder
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[debug] [2024-03-10T02:26:05.892Z] setProjectAccount(/Users/sudo-self/Desktop/untitled folder, mrjesseroper@gmail.com)
+[info] 
+[info] ✔  Using account: mrjesseroper@gmail.com 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-03-10T02:26:05.904Z] Using project from CLI flag: ilostmyipad
+[debug] [2024-03-10T02:26:05.907Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ilostmyipad [none]
+[debug] [2024-03-10T02:26:06.151Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ilostmyipad 200
+[debug] [2024-03-10T02:26:06.151Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ilostmyipad {"projectId":"ilostmyipad","projectNumber":"1096571522428","displayName":"ilostmyipad","name":"projects/ilostmyipad","resources":{"hostingSite":"ilostmyipad","realtimeDatabaseInstance":"ilostmyipad-default-rtdb"},"state":"ACTIVE","etag":"1_3d55fbb1-767b-4068-a1f6-3a3c4255e88d"}
+[info] i  Using project ilostmyipad (ilostmyipad) 
+[info] 
+=== Hosting Setup
+[debug] [2024-03-10T02:26:06.159Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ilostmyipad [none]
+[debug] [2024-03-10T02:26:06.337Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ilostmyipad 200
+[debug] [2024-03-10T02:26:06.337Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ilostmyipad {"projectId":"ilostmyipad","projectNumber":"1096571522428","displayName":"ilostmyipad","name":"projects/ilostmyipad","resources":{"hostingSite":"ilostmyipad","realtimeDatabaseInstance":"ilostmyipad-default-rtdb"},"state":"ACTIVE","etag":"1_3d55fbb1-767b-4068-a1f6-3a3c4255e88d"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-03-10T02:31:00.933Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-03-10T02:31:01.055Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-03-10T02:31:01.055Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.8.1","browserURL":"https://www.gstatic.com/firebasejs/10.8.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.8.1/firebase.tgz"},"live":{"version":"10.8","browserURL":"https://www.gstatic.com/firebasejs/live/10.8/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.8/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.8.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.8.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.8.1/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/10.8.1/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/10.8.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.8.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.8.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.8.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.8.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.8.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.8.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming /Users/sudo-self/Desktop/untitled folder is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=149802417&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-03-10T02:31:07.323Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-03-10T02:31:07.324Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-03-10T02:31:07.646Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-03-10T02:31:07.646Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-03-10T02:31:07.659Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-03-10T02:31:08.017Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-03-10T02:31:08.017Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"sudo-self","id":119916323,"node_id":"U_kgDOByXHIw","avatar_url":"https://avatars.githubusercontent.com/u/119916323?v=4","gravatar_id":"","url":"https://api.github.com/users/sudo-self","html_url":"https://github.com/sudo-self","followers_url":"https://api.github.com/users/sudo-self/followers","following_url":"https://api.github.com/users/sudo-self/following{/other_user}","gists_url":"https://api.github.com/users/sudo-self/gists{/gist_id}","starred_url":"https://api.github.com/users/sudo-self/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sudo-self/subscriptions","organizations_url":"https://api.github.com/users/sudo-self/orgs","repos_url":"https://api.github.com/users/sudo-self/repos","events_url":"https://api.github.com/users/sudo-self/events{/privacy}","received_events_url":"https://api.github.com/users/sudo-self/received_events","type":"User","site_admin":false,"name":"Sudo-Self","company":"VETERAN","blog":"https://jessejesse.com","location":"Rocky Mountains","email":"sudo-self@proton.me","hireable":true,"bio":"B.S. Information Technology (IT) CTU, 2022\r\n","twitter_username":"ilostmyipad","public_repos":269,"public_gists":38,"followers":13,"following":30,"created_at":"2022-12-06T05:13:07Z","updated_at":"2024-03-09T12:12:01Z","private_gists":11,"total_private_repos":28,"owned_private_repos":28,"disk_usage":1697644,"collaborators":0,"two_factor_authentication":true,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as sudo-self 
+[info] 
