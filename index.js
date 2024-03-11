@@ -1,13 +1,13 @@
-// Your web app's Firebase configuration
-var firebaseConfig = {
-  apiKey: process.env.apiKey,
-  authDomain: process.env.authDomain,
-  databaseURL: process.env.databaseURL,
-  projectId: process.env.projectId,
-  storageBucket: process.env.storageBucket,
-  messagingSenderId: process.env.messagingSenderId,
-  appId: process.env.appId,
+onst firebaseConfig = {
+  apiKey: "AIzaSyCWMwzWwfYnNA1um3aEYcMgqDDBXLxJi9I",
+  authDomain: "svetle-book.firebaseapp.com",
+  databaseURL: "https://svetle-book-default-rtdb.firebaseio.com",
+  projectId: "svetle-book",
+  storageBucket: "svetle-book.appspot.com",
+  messagingSenderId: "359911049668",
+  appId: "1:359911049668:web:a8e02772de14910db17c91"
 };
+
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 

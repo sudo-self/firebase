@@ -1,7 +1,14 @@
 {
   "rules": {
-    ".read": true,
-    ".write": true
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "messages": {
+      ".indexOn": ["timestamp"],
+      "$messageId": {
+        ".validate": "newData.hasChildren(['text', 'timestamp']) && newData.child('text').isString() && 
+newData.child('timestamp').isNumber()"
+      }
+    }
   }
 }
 
